@@ -1,0 +1,243 @@
+input[type=text]{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tituloPrincipalCadastrarServico{
+    position: absolute;
+    top:35px;
+    font-family: Segoe UI;
+    font-size: 30px;
+    color: #A9A9A9;
+}
+.divisoria{
+    position: relative;
+    min-height: 1px;
+}
+.linha-separadoraCadastrarServico{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #F6E1E1;   
+    top: 65px;
+}
+
+.campoPadraoServico{  
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+}
+
+.cadastroServicoCampoFornecedor{
+    position: relative; 
+    width: 500px;
+    top: 100px;
+    left: 30px;
+}
+
+.cadastroServicoFornecedor{
+    border: 1px solid #999;
+    width: 500px;
+}
+
+.cadastroServicoCampoDtRegistro{
+    position: relative; 
+    top:100px;
+    left: 60px;
+}
+
+.cadastroServicoDtRegistro{
+   border: 1px solid #999;
+   width: 150px; 
+}
+
+.cadastroServicoCampoID{
+    position: relative; 
+    width: 100px;
+    top: 100px;
+}
+.cadastroServicoID{
+    border: 1px solid #999;
+    width: 100px;
+}
+
+.cabecalhoPesquisaServico{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #FFA500;
+    border: 1px solid #999;
+    border-radius: 10px;
+    top: 130px;
+}
+
+.cabecalhoPesquisaIDServico{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-right: 0.5px solid #000;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+}
+
+.cabecalhoPesquisaFornecedorServico{
+    position: relative;
+    width: 450px;
+    height: 40px;
+    text-align: center;
+    border-right: 0.5px solid #000;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+}
+
+
+.cabecalhoPesquisaCampoPesquisaServico{
+    position: relative;
+    width: 340px;
+    height: 38px;
+    border: 1px solid #999;
+    left: 80px;
+    top: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    line-height: 38px;
+}
+
+.cabecalhoPesquisaNomeServico{
+    position: relative;
+    width: 260px;
+    left: 10px;
+    height: 9px;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.textoCabecalhoServico{
+    font-size: 14px;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+.resultadosPesquisaServico{
+   position: relative;
+   width: 100%;
+   top: 135px;
+}
+
+.resultadoServico{
+    position: relative;
+    height: 38px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    background-color: #fff;
+    line-height: 38px;
+}
+
+.semBordaDireitaServico{
+    border-right: 0px;
+}
+
+.botaoPesquisaAddServico{
+    position: relative;
+    width:90px;
+    height: 25px;
+    font-family: Tahoma;
+    font-size: 12px;
+    text-align: center;
+    top: -2px;
+    color: #000;
+    left: 310px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 25px;
+}
+
+.botaoPesquisaExcluirServico{
+    background: #F2585D;
+}
+.botaoPesquisaExcluirServico:hover{
+    background:#EF7A7E;
+}
+
+.botaoPesquisaEditarServico{
+    background: #008B8B;   
+}
+.botaoPesquisaEditarServico:hover{
+    background: #19BFBF;
+}
+
+.textoResultadoServico{
+    font-size: 14px;
+    font-family: Segoe UI;
+}
+
+.botaoBuscarServico{
+    top:300px;
+}
+
+.cadastroServico{
+    position: relative; 
+    width:100%;
+}
+
+.linha-separadoraCadastroServico{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #F6E1E1;  
+    top: 10px;
+}
+
+.cadastroServicoIdServico {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    width: 100px;
+}
+.botaoBuscarServico{
+    top:300px;
+}
+.botaoAltServico{
+    width:105px;
+    background: #17CB47;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #008B8B;   
+}
+
+.botaoAltServico:hover{
+    background: #19BFBF;
+}
+.cadastroServico-campoIdServico{   
+    position: relative;
+    width:100px;
+    top:30px;
+}
+
+.cadastroServico-campoDescricaoServico{   
+    position: relative;
+    width:700px;
+    top:50px;
+}
+
+.cadastroServico-descricaoServico{
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    width: 700px;
+}
+input:required:invalid {
+    padding: 10px;
+    border: 2px solid #FF4500;
+    border-radius: 10px;
+}

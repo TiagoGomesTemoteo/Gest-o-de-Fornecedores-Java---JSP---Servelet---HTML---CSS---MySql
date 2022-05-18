@@ -1,0 +1,525 @@
+#razaoSocial{width: 500px;}
+#nomeFantasia{width: 500px;}
+#email{width: 500px;}
+#cnpj{width: 230px;}
+#inscricaoEstadual{width: 230px;}
+#inscricaoMunicipal{width: 227px;}
+#tipoFornecimento{width: 250px;}
+#status{width: 253px;}
+.logradouro{width: 400px;}
+.bairro{width: 500px;}
+.cep{width: 100px;}
+#numero{width: 50px;}
+.uf{width: 253px;}
+.cidade{width: 500px;}
+#tipoLogradouro {width: 184px;}
+.complemento{width: 500px;}
+.pais{width: 244px;}
+.tipoEndereco{width: 184px;}
+.ddi{width: 50px;}
+.numeroTelefone{width: 150px;}
+.emailContato{width: 500px;}
+.nomeContato{width: 500px;}
+.departamentoContato{width: 500px;}
+.ddiContato{width: 50px;}
+.numeroTelefoneContato{width: 150px;}
+.nomeProduto{width: 500px;}
+.descricaoProduto{width: 600px}
+.dtInicioServico{width:172px;}
+.descricaoServico{width: 600px}
+
+input[type=text]{
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+select{
+    padding: 10px;
+    border: 1px solid #999;
+    outline: 0;
+    border-radius: 10px; 
+}
+
+
+.campoRazaoSocial{
+    position: absolute; 
+    left:37px;
+    top:110px;
+}
+.campoNomeFantasia{
+    position: absolute; 
+    left:603px;
+    top:110px;
+}
+.campoEmail{
+    position: absolute; 
+    left:37px;
+    top:170px;
+}
+.campoCNPJ{
+    position: absolute; 
+    left: 603px;
+    top:170px; 
+}
+.campoTipoFornecimento{
+    position: absolute; 
+    right: 37px;
+    top:170px; 
+}
+.campoInscricaoEstadual{
+    position: absolute; 
+    left:37px;
+    top:230px;
+}
+.campoInscricaoMunicipal{
+    position: absolute; 
+    left:309px;
+    top:230px;
+}
+.campoStatus{
+    position: absolute; 
+    left: 603px;
+    top:230px;    
+}
+.campoCNAE{
+    width: 300px;
+    position: relative; 
+    left:37px;
+    top:290px;    
+}
+.btn-apagar{
+    position: relative;
+    width:50px;
+    height:37px; 
+    background-color: #F2585D;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-apagar:hover{
+   background-color: #EF7A7E; 
+}
+
+.botaoAddCNAE{
+    position:relative;
+    top:300px;
+    bottom:0px;
+    left:37px;
+}
+
+.formularioFornecedor{
+    position: relative;
+    width:85%;
+    left:15%;
+}
+
+.linha-separadora-fornecedor{
+    top:310px;
+}
+
+.formularioTelefone{
+    position: relative;
+    width:85%;
+    top:320px;
+    left:15%;   
+    background-color: #fff;
+}
+
+.Subtitulos{
+    position: relative;
+    width:300px;
+    top:0px;
+    left: 37px;
+    font-family: Segoe UI;
+    font-size: 25px;
+    color: #A9A9A9;
+}
+.campoDDI{
+    position: relative; 
+    width:72px;
+}
+.telefone{
+    position: relative; 
+    width:700px;
+    left: 37px;
+    top:-10px;
+}
+
+.campoNumeroTelefone{
+    position: relative; 
+    width:172px;   
+    left:3px;
+}
+ 
+.campoTipoTelefone{
+    position: relative; 
+    width:172px;   
+    left:7px;
+}
+
+.btn-apagar-telefone{
+    position: relative;
+    width:50px;
+    height:37px; 
+    background-color: #F2585D;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-apagar-telefone:hover{
+   background-color: #EF7A7E; 
+}
+
+.botaoAddTelefone{
+    position:relative;
+    left:37px;
+}
+
+.linha-separadora-telefone{
+    top:330px
+}
+.linha-separadora-endereco{
+    top:400px
+}
+
+.linha-separadora-endereco-adicionais{
+    top:40px;
+    position: relative;
+    width: 1050px;
+    height: 2px;
+    background-color: #F6E1E1;
+}
+
+.formularioEndereços{
+    position: relative;
+    width:85%;
+    top:335px;
+    left:15%;   
+    background-color:#fff;
+}
+
+.endereco{
+    position: relative; 
+    width:1100px;
+    left: 37px;
+    top: 10px;
+}
+.campoTipoLogradouro{
+    position: relative;  
+    width:184px;
+}
+.campoLogradouro{
+    position: relative;
+    left:3px;    
+}
+.campoNumero{
+    position: relative;
+    left:7px;     
+}
+.campoCEP{
+    position: relative;
+    left:9px;   
+}
+
+.campoBairro{
+    position: relative;
+    width:500px;
+    top:7px;
+}
+
+.campoCidade{
+    position: relative;
+    width:500px;
+    left:28px;
+    top:7px;  
+}
+
+.campoUF{
+    position: relative;
+    width:253px;
+    top:15px;  
+}
+
+.campoPais{
+    position: relative;
+    width:244px;
+    top:15px;    
+}
+
+.campoTipoEndereco{
+    position: relative;
+    width:244px;
+    top:15px;  
+    left: 28px;
+}
+
+.campoComplemento{
+    position: relative;
+    width:253px;
+    top:25px;    
+}
+
+.botaoAddEndereco{
+    position:relative;
+    left:37px;
+    top:45px; 
+}
+
+.btn-apagar-endereco{
+    position: relative;
+    width:70px;
+    height:37px; 
+    background-color: #F2585D;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-apagar-endereco:hover{
+   background-color: #EF7A7E; 
+}
+
+.formularioContatos{
+    position: relative;
+    width:85%;
+    top:410px;
+    left:15%;   
+    background-color:#fff;
+}
+
+.botaoAddContato{
+    position:relative;
+    left:37px;
+}
+
+.contato{
+    position: relative; 
+    width:1100px;
+    left: 37px;
+    top: 10px;
+}
+
+.campoNomeContato{   
+    position: relative;
+    width:500px;
+    top:7px;
+}
+
+.campoEmailContato{
+    position: relative;
+    width:500px;
+    left:28px;
+    top:7px;
+}
+
+.campoDepartamentoContato{   
+    position: relative;
+    width:500px;
+}
+
+.campoDDIContato{
+    position: relative; 
+    width:72px;
+    left:28px;
+}
+
+.campoNumeroTelefoneContato{
+    position: relative; 
+    width:172px;   
+    left:34px;
+}
+
+.campoTipoTelefoneContato{
+    position: relative; 
+    width:172px;   
+    left:37px;
+}
+
+.btn-apagar-contato{
+    position: relative;
+    width:70px;
+    height:37px; 
+    background-color: #F2585D;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-apagar-contato:hover{
+   background-color: #EF7A7E; 
+}
+
+.linha-separadora-contatos{
+    top:430px
+}
+
+.formularioProdutos{
+    position: relative;
+    width:85%;
+    top:440px;
+    left:15%;   
+    background-color:#fff;
+}
+
+.produto{
+    position: relative; 
+    width:1100px;
+    left: 37px;
+}
+
+.botaoAddProduto{
+    position:relative;
+    left:37px;
+}
+
+.campoNomeProduto{   
+    position: relative;
+    width:500px;
+    top:10px;
+}
+
+.campoDescricaoProduto{   
+    position: relative;
+    width:600px;
+    top:20px;
+}
+
+.btn-apagar-produto{
+    position: relative;
+    width:70px;
+    height:37px; 
+    background-color: #F2585D;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-apagar-produto:hover{
+   background-color: #EF7A7E; 
+}
+
+.formularioServicos{
+    position: relative;
+    width:85%;
+    top:440px;
+    left:15%;   
+}
+
+.servico{
+    position: relative; 
+    width:1100px;
+    left: 37px;
+}
+
+.botaoAddServico{
+    position:relative;
+    left:37px;
+}
+
+.campoDescricaoServico{   
+    position: relative;
+    width:600px;
+}
+
+.btn-apagar-servico{
+    position: relative;
+    width:50px;
+    height:37px; 
+    background-color: #F2585D;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+    left:55px;
+}
+
+.btn-apagar-servico:hover{
+   background-color: #EF7A7E; 
+}
+
+.botao-Salvar-Rascunho-Cancelar{
+    position:relative;
+    left:710px;
+    width:130px;
+    height: 50px;
+    font-family: Tahoma;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botaoSalvar:hover{
+    background: #19BFBF;
+}
+.botaoSalvar{
+    background: #008B8B;   
+}
+
+.botaoRascunho{
+    background: #FFA500;
+}
+.botaoRascunho:hover{
+    background: #FFBE47;
+}
+
+.botaoCancelar{
+    background: #F2585D;
+}
+.botaoCancelar:hover{
+    background:#EF7A7E;
+}
+
+.formularioBotoesSalvarRascunhoCancelar{
+    position: relative;
+    width:85%;
+    top:450px;
+    left:15%;   
+}
+
+.espacamento{
+    position: relative;
+    width:1px;
+    height:1px;
+    top:450px;
+}
+
+input:required:invalid {
+    padding: 10px;
+    border: 2px solid #FF4500;
+    border-radius: 10px;
+}
+
+select:required:invalid{
+    padding: 10px;
+    border: 2px solid #FF4500;
+    outline: 0;
+    border-radius: 10px; 
+}

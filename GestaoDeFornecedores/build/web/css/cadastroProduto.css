@@ -1,0 +1,254 @@
+input[type=text]{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tituloPrincipalCadastrarProduto{
+    position: absolute;
+    top:35px;
+    font-family: Segoe UI;
+    font-size: 30px;
+    color: #A9A9A9;
+}
+
+.linha-separadoraCadastrarProduto{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #F6E1E1;   
+    top: 65px;
+}
+.divisoria{
+    position: relative;
+    min-height: 1px;
+}
+.campoPadraoProduto{  
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+}
+
+.cadastroProdutoCampoFornecedor{
+    position: relative; 
+    width: 500px;
+    top: 100px;
+    left: 30px;
+}
+
+.cadastroProdutoFornecedor{
+    border: 1px solid #999;
+    width: 500px;
+}
+
+.cadastroProdutoCampoDtRegistro{
+    position: relative; 
+    top:100px;
+    left: 60px;
+}
+
+.cadastroProdutoDtRegistro{
+   border: 1px solid #999;
+   width: 150px; 
+}
+
+.cadastroProdutoCampoID{
+    position: relative; 
+    width: 100px;
+    top: 100px;
+}
+.cadastroProdutoID{
+    border: 1px solid #999;
+    width: 100px;
+}
+
+.cabecalhoPesquisaProduto{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #FFA500;
+    border: 1px solid #999;
+    border-radius: 10px;
+    top: 130px;
+}
+
+.cabecalhoPesquisaIDProduto{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-right: 0.5px solid #000;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+}
+
+.cabecalhoPesquisaFornecedorProduto{
+    position: relative;
+    width: 450px;
+    height: 40px;
+    text-align: center;
+    border-right: 0.5px solid #000;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+}
+
+
+.cabecalhoPesquisaCampoPesquisaProduto{
+    position: relative;
+    width: 340px;
+    height: 38px;
+    border: 1px solid #999;
+    left: 80px;
+    top: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    line-height: 38px;
+}
+
+.cabecalhoPesquisaNomeProduto{
+    position: relative;
+    width: 260px;
+    left: 10px;
+    height: 9px;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.textoCabecalhoProduto{
+    font-size: 14px;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+.resultadosPesquisaProduto{
+   position: relative;
+   width: 100%;
+   top: 135px;
+}
+
+.resultadoProduto{
+    position: relative;
+    height: 38px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    background-color: #fff;
+    line-height: 38px;
+}
+
+.semBordaDireitaProduto{
+    border-right: 0px;
+}
+
+.botaoPesquisaAddProduto{
+    position: relative;
+    width:90px;
+    height: 25px;
+    font-family: Tahoma;
+    font-size: 12px;
+    text-align: center;
+    top: -2px;
+    color: #000;
+    left: 310px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 25px;
+}
+
+.botaoPesquisaExcluirProduto{
+    background: #F2585D;
+}
+.botaoPesquisaExcluirProduto:hover{
+    background:#EF7A7E;
+}
+
+.botaoPesquisaEditarProduto{
+    background: #008B8B;   
+}
+.botaoPesquisaEditarProduto:hover{
+    background: #19BFBF;
+}
+
+.textoResultadoProduto{
+    font-size: 14px;
+    font-family: Segoe UI;
+}
+
+.botaoBuscarProduto{
+    top:300px;
+}
+
+.cadastroProdutoProduto{
+    position: relative; 
+    width:100%;
+}
+
+.linha-separadoraCadastroProduto{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #F6E1E1;  
+    top: 10px;
+}
+
+.cadastroProduto-nomeProduto{
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    width: 500px;
+}
+.cadastroProduto-idProduto{
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.cadastroProduto-campoNomeProduto{   
+    position: relative;
+    width:500px;
+    top:30px;
+}
+.cadastroProduto-campoIdProduto{   
+    position: relative;
+    width:100px;
+    left: 30px;
+    top:30px;
+}
+.cadastroProduto-campoDescricaoProduto{   
+    position: relative;
+    width:700px;
+    top:50px;
+}
+
+.cadastroProduto-descricaoProduto{
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.botaoAltProduto{
+    width:105px;
+    background: #17CB47;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #008B8B;   
+}
+
+.botaoAltProduto:hover{
+    background: #19BFBF;
+}
+
+input:required:invalid {
+    padding: 10px;
+    border: 2px solid #FF4500;
+    border-radius: 10px;
+}

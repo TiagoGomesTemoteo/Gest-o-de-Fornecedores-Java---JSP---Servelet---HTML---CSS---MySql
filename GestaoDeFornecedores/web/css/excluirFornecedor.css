@@ -1,0 +1,79 @@
+.caixaExclusao{
+    position: absolute;
+    width: 394px;
+    height: 100px;
+    left: 50%;
+    top: 30%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    border: 1px solid #999;
+}
+
+.btn-apagar{
+    position: absolute;
+    width:30px;
+    height:30px; 
+    top:10px;
+    right: 10px;
+    background-color: #F2585D;
+    font-family: Tahoma;
+    font-size: 25px;
+    color: #fff;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-apagar:hover{
+   background-color: #EF7A7E; 
+}
+
+.fraseConfirmacaoExclusao{
+    position: absolute;
+    width: 300px;
+    height: 15px;
+    font-family: Tahoma;
+    font-size: 20px;
+    left: 20px;
+    top: 20px;
+}
+
+.botaoExcluirSim{
+    position: absolute;
+    width:105px;
+    background: #008B8B;
+    font-family: Tahoma;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+    bottom: 10px;
+    right: 150px;
+}
+
+.botaoExcluirSim:hover{
+    background:#5F9EA0;
+}
+.botaoExcluirNao:hover{
+    background:#5F9EA0;
+}
+.botaoExcluirNao{
+    position: absolute;
+    width:105px;
+    background: #008B8B;
+    font-family: Tahoma;
+    font-size: 15px;
+    bottom: 10px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    right: 10px;
+}

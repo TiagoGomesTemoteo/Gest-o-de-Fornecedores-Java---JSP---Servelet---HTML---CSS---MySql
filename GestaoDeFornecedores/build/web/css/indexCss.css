@@ -1,0 +1,17 @@
+.boasVindas{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 20%;
+    top: 15%;
+    font-family: Segoe UI;
+    font-size: 26px;
+    color: #fff;
+    
+}
+.planoFundoIndex{
+    position: absolute;
+    width:84.9%;
+    height: 100%;
+    left:15.1%;
+}

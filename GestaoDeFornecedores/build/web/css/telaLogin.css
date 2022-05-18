@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+input[type=text]{
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+input[type=password]{
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+.formularioLogin{
+    position: absolute;
+    width: 425px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    border: 1px solid #999;
+}
+
+.tituloFormularioLogin{
+   position: absolute; 
+   width: 425px;
+   height: 100px;
+   text-align: center;
+   line-height: 100px;
+   left: 50%;
+   font-size: 25px;
+   font-family: Tahoma;
+   transform: translateX(-50%);
+}
+
+.msgAcessoNegado{
+   position: absolute; 
+   width: 425px;
+   height: 30px;
+   text-align: center;
+   line-height: 30px;
+   left: 50%;
+   color: #FF4500;
+   font-size: 14px;
+   font-family: Tahoma;
+   transform: translateX(-50%); 
+   z-index: 1;
+   font-weight: bold;
+}
+
+.camposTelaLogin{
+   position: absolute; 
+   height: 100px;
+   left: 50%;
+   font-size: 25px;
+   font-family: Tahoma;
+   transform: translateX(-50%);
+}
+
+.campoLogin{
+    top: 100px;
+}
+
+.campoSenha{
+    top: 200px; 
+}
+.campoLogin-Senha{
+    width: 300px;
+}
+
+.campoBotaoEntrar{
+    width: 322px;
+    top:300px;
+}
+
+.camposTitulos{
+   font-size: 16px;
+   font-family: Tahoma;
+   font-weight: bold;
+}
+
+.botaoEntrar{
+    position: absolute;
+    width:105px;
+    background: #008B8B;
+    font-family: Tahoma;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+    right: 0px;
+    font-weight: bold;
+}
+
+.botaoEntrar:hover{
+    background: #19BFBF;
+}

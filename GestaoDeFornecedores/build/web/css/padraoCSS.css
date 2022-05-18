@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+
+
+.telaAcao{
+    position: absolute;
+    width:79%;
+    height: 100%;
+    left:15%;
+    padding: 3%;    
+}
+
+.barraLateralEsquerda{
+    position:fixed;
+    top: 0px;
+    width: 15%;
+    height: 625px;
+    background-color: #008B8B;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.cursorMao{
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.BotoesMenuLateral{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background-color: #008B8B;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-width:2px;
+    border-bottom-style: solid;
+    border-bottom-color: #5F9EA0;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #fff;   
+    font-weight:bold;
+}
+
+.BotoesMenuLateral:hover{
+    color:#fff;
+    background-color: #07B5B5;
+}
+
+.BotoesMenuLateral.ativo{
+    color:#fff;
+    background-color: #00A1A1;
+}
+
+.barrinhaBotao.ativo{
+    background-color: #fff;   
+}
+.campoPadrao{  
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+}
+
+.botaoAdd{
+    width:105px;
+    background: #17CB47;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botaoAdd:hover{
+    background: #48EF75;
+}
+
+.mesma-linha{
+    display: inline-block;
+}
+
+.linha-separadora{
+    position: relative;
+    left:243px;
+    width: 1050px;
+    height: 2px;
+    background-color: #F6E1E1;
+    
+}
+
+.tituloPrincipal{
+    position: absolute;
+    top:35px;
+    left: 37px;
+    font-family: Segoe UI;
+    font-size: 30px;
+    color: #A9A9A9;
+}
+
+.msgObrigatoria{
+    position: absolute;
+    top:80px;
+    left: 37px;
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: bold;
+}
